@@ -9,19 +9,24 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:text="@string/convert_from_text"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_marginRight="20dp"
-        android:id="@+id/textView" />
+        android:text="Convert from"
+        android:id="@+id/convert_from_text_view"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="20dp"/>
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
         android:id="@+id/amount_text_view"
         android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/convert_from_text_view"
+        android:inputType="numberDecimal"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:text="1.0"/>
@@ -55,6 +60,7 @@
         android:layout_gravity="left|top"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="30dp"
+        android:textColor="@android:color/black"
         />
     
     <TextView
@@ -63,7 +69,8 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_gravity="left|top"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"/>
 
         <TextView
             android:id="@+id/tbs_text_view"
@@ -71,13 +78,15 @@
             android:layout_gravity="left|top"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_marginRight="30dp"
-            android:layout_marginBottom="30dp" />
+            android:layout_marginBottom="30dp"
+            android:textColor="@android:color/black"/>
 
         <TextView
             android:id="@+id/oz_text_view"
             android:text=".1666 oz"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_gravity="left|top" />
+            android:layout_gravity="left|top"
+            android:textColor="@android:color/black"/>
 
         <TextView
             android:id="@+id/kg_text_view"
@@ -85,13 +94,15 @@
             android:layout_gravity="left|top"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_marginRight="30dp"
-            android:layout_marginBottom="30dp" />
+            android:layout_marginBottom="30dp"
+            android:textColor="@android:color/black"/>
 
         <TextView
             android:id="@+id/quart_text_view"
             android:text=".0052 quart"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_gravity="left|top" />
+            android:layout_gravity="left|top"
+            android:textColor="@android:color/black"/>
 
         <TextView
             android:id="@+id/gallon_text_view"
@@ -99,13 +110,15 @@
             android:layout_gravity="left|top"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_marginRight="30dp"
-            android:layout_marginBottom="30dp" />
+            android:layout_marginBottom="30dp"
+            android:textColor="@android:color/black"/>
 
         <TextView
             android:id="@+id/pound_text_view"
             android:text=".0125 pound"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_gravity="left|top" />
+            android:layout_gravity="left|top"
+            android:textColor="@android:color/black"/>
 
         <TextView
             android:id="@+id/ml_text_view"
@@ -113,13 +126,15 @@
             android:layout_gravity="left|top"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_marginRight="30dp"
-            android:layout_marginBottom="30dp" />
+            android:layout_marginBottom="30dp"
+            android:textColor="@android:color/black"/>
 
         <TextView
             android:id="@+id/liter_text_view"
             android:text=".0049 liter"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_gravity="left|top" />
+            android:layout_gravity="left|top"
+            android:textColor="@android:color/black"/>
 
         <TextView
             android:id="@+id/mg_text_view"
@@ -127,13 +142,15 @@
             android:layout_gravity="left|top"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_marginRight="30dp"
-            android:layout_marginBottom="15dp" />
+            android:layout_marginBottom="15dp"
+            android:textColor="@android:color/black"/>
 
         <TextView
             android:id="@+id/pint_text_view"
             android:text=".0104 pint"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_gravity="left|top" />
+            android:layout_gravity="left|top"
+            android:textColor="@android:color/black"/>
 
 
     </GridLayout>
